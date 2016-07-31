@@ -1,0 +1,89 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/player.css">
+		<link rel="stylesheet" href="css/lista.css">
+		<link rel="stylesheet" href="css/buscador.css">
+		
+		<link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css'>
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
+		<link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Palanquin:400,100,200,300'>
+		<link rel='stylesheet prefetch' href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"/>
+		
+		<title>MusicSalle</title>
+		<link rel="icon" href="logo.png">
+		
+		
+	</head>
+	
+	<body>
+	<a href="index.html"><img id="logoWeb" src="logo.png" alt="Logo Web" title="home"/></a>
+	<img id="logoFont" src="logoFont.png" alt="Logo Web"/>
+	
+	<!-- MUSIC PLAYER -->
+		<section class="music-player">
+			<header class="music-player--banner" id="imagePlayer"></header>
+			<main class="music-player--main">
+				<div class="music-player--progress">
+					<progress id ="barrita" class="progress--progress-bar" value="15" max="30"></progress>
+					<div class="progress--time">CURRENT TIME</div>
+					<div class="progress--time progress--time__end">FINAL TIME</div>
+				</div>
+				<div class="music-player--controls">
+					<i class="fa fa-play controls--play-button" id="buttonPlay"></i>
+
+					<div class="song-info">
+						<div id="songName" class="song-info--title"></div>
+						<div id="artistName" class="song-info--artist"></div>
+						<div id="albumName" class="song-info--artist"></div>
+					</div>
+					<div class="controls--actions">
+						<i class="fa fa-floppy-o actions--repeat" alt="save to playlist" title="save to playlist" id="saveSong"></i>
+						<i class="fa fa-backward actions--back"></i>
+						<i class="fa fa-forward actions--forward"></i>
+					 </div>
+				</div>
+			</main>
+		</section>
+		
+		<!-- BUSCADOR -->
+		<form method="get" id="content" action="#">
+			<input type="text" name="input" class="input" id="textSearch">
+			<button type="reset" class="search" id="buscador"></button>
+		</form>
+		
+		<!-- RADIO BUTTONS -->
+		<form id="typeInfo" method="get">
+			<input type="radio" id="cancion" name="typeSearch" value="track" checked>Cancion
+			<input type="radio" id="artista" name="typeSearch" value="artist">Artista
+			<input type="radio" id="album" name="typeSearch" value="album">Album
+		</form>
+		
+		<div class="listaCanciones" id="listaCanciones">
+			<p class="boxTitle">Resultados de la busqueda</p>
+			
+			<!-- listado con javascript -->
+			
+		</div>
+		
+		<div class="listaRecomend" id="listaRecomend">
+			<p class="boxTitle">Recomendados</p>
+
+			<!-- listado con javascript -->
+			
+		</div>
+		
+		<div id="playList">
+
+		</div>
+		
+		<div>
+			<audio autoplay="true" id="player" src=""></audio>
+		</div>
+		
+	</body>
+	
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="js/buscadorAnimacion.js"></script>
+	<script src="js/musicSalle.js"></script>
+</html>
