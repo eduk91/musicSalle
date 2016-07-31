@@ -1,7 +1,7 @@
 # musicSalle
 music APP for la Salle www.salleurl.edu/
 
-Aplicación web para búsqueda de música reproducción mediante un sencillo player.
+Aplicación web para búsqueda de música y reproducción mediante un sencillo player.
 Utilizando la API de Spotify
 Permite la búsqueda de canciones filtrando por: Artista, Canción o Álbum
 Mostrando los resultados en el listado del lateral izquierdo de la pagina. Y artistas recomendados de la canción seleccionada.
