@@ -1,0 +1,83 @@
+.listaCanciones{
+	border:solid;
+	margin-top:100px;
+	margin-left:20px;
+	width:45%;
+	height:300px;
+	float:left;
+	overflow-y:scroll;
+}
+
+.listaRecomend{
+	border:solid;
+	margin-top:100px;
+	margin-right:20px;
+	width:45%;
+	height:300px;
+	float:right;
+	overflow-y:scroll;
+}
+
+.boxTitle{
+	text-align:center;
+	font-weight:bold;
+	border-bottom:solid;
+	background-color:black;
+}
+
+.item:nth-child(odd){
+	padding-left:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	background-color:#D2691E;
+}
+.item:nth-child(even){
+	padding-left:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.item:hover{
+	cursor:pointer;
+	background-color:rgba(255, 255, 255, 0.4);
+}
+
+.fa-youtube-play{
+	float:right;
+	margin-top:-15px;
+	margin-right:50px;
+	color:black;
+}
+
+#playList{
+	float:right;
+	margin-right:-500px;
+	margin-top:-340px;
+	border-left:1px solid;
+	border-color:black;
+}
+.cancionesList{
+	border-bottom:1px solid;
+	border-color:black;
+	margin-bottom:5px;
+	padding-left:5px;
+}
+.cancionesList:hover{
+	cursor:pointer;
+	background-color:rgba(255, 255, 255, 0.4);
+}
+
+#logoWeb{
+	position:absolute;
+	float:left;
+	margin-left:50px;
+	height:100px;
+	width:100px;
+	box-shadow:0px 10px 30px black;
+	border-radius:20px;
+}
+#logoFont{
+	position:absolute;
+	float:left;
+	margin-top:100px;
+}
