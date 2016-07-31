@@ -14,6 +14,6 @@ https://developer.spotify.com/web-api/
 _________________________________________________________________________________________________________________________________
 
 
-Eduard Casas Aguilera
-Víctor Rodríguez Úbric
-Jaume Florensa Junqué
+Eduard Casas Aguilera, 
+Víctor Rodríguez Úbric, 
+Jaume Florensa Junqué, 
