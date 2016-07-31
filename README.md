@@ -1,5 +1,5 @@
 # musicSalle
-music APP for la Salle
+music APP for la Salle www.salleurl.edu/
 
 Aplicación web para búsqueda de música reproducción mediante un sencillo player.
 Utilizando la API de Spotify
@@ -9,7 +9,7 @@ Una vez seleccionada la canción, se cargan los datos en el player y podremos es
 Tenemos la opción de guardar la canción en una playlist. Que permanecerá mientras no limpiemos la cache, cookies del navegador (localStorage)
 
 Gracias:
-http://codepen.io/
+http://codepen.io/, 
 https://developer.spotify.com/web-api/
 _________________________________________________________________________________________________________________________________
 
